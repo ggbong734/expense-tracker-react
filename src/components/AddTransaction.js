@@ -16,7 +16,8 @@ export const AddTransaction = () => {
             amount: Number(amount)
         }
         addTransaction(newTransaction);
-        console.log('new transaction state: ', transactions)
+        setText('');
+        setAmount('');
     }
     return (
         <>
